@@ -1,0 +1,17 @@
+.members {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-left: 0;
+  gap: 40px;
+
+  &__photo {
+    margin: 0 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    &--display {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.footer__logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-right: 70px;
+  margin-left: 15px;
+}
+.footer__logo--style {
+  text-decoration: none;
+  width: 145px;
+}
+.footer__logo--blue {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 3%;
+  color: var(--brand-color);
+}
+.footer__logo--white {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 3%;
+  color: var(--white);
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.modal__close {
+    top: 14px;
+    right: 14px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+  }
+  .modal__close--icon {
+    width: 11px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+  }

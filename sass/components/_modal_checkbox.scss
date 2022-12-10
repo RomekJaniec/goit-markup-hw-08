@@ -1,0 +1,42 @@
+.modal__checkbox {
+  opacity: 0;
+  width: 16px;
+  height: 15px;
+}
+.modal__checkbox--border {
+  opacity: 1;
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  border: solid 2px;
+  border-color: var(--dark-color-font);
+  border-radius: 3px;
+  background-color: none;
+  top: 4px;
+  left: 54px;
+}
+.modal__checkbox--description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--less-dark-color-font);
+}
+.modal__checkbox--icon {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.modal__checkbox:checked + .modal__checkbox--border {
+  border-color: var(--brand-color);
+  background-color: var(--brand-color);
+}
+.modal__agreement {
+  display: flex;
+  position: relative;
+  padding-left: 56px;
+}
+.modal__agreement--link {
+  color: var(--brand-color);
+}

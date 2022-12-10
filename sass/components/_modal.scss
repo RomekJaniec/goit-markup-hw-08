@@ -1,0 +1,22 @@
+.modal {
+  width: 528px;
+  min-height: 581px;
+  background-color: var(--white);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__heading {
+    padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color-font);
+  }
+}

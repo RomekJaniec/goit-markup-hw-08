@@ -1,0 +1,29 @@
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 93px;
+  }
+  .header__logo--style {
+    text-decoration: none;
+    width: 145px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .header__logo--blue {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 3%;
+    color: var(--brand-color);
+  }
+  .header__logo--black {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 3%;
+    color: var(--black);
+    text-decoration: none;
+  }

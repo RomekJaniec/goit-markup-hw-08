@@ -1,0 +1,14 @@
+.team {
+  background-color: #f5f4fa;
+
+  &__heading {
+    width: 352px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--dark-color-font)
+  }
+}

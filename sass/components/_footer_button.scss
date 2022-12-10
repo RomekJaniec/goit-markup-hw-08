@@ -1,0 +1,28 @@
+.footer__button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-top: 68px;
+    margin-left: 12px;
+    padding: 0;
+    border: none;
+    background-color: var(--brand-color);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .footer__button--font {
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    line-height: 1.6;
+    letter-spacing: 6%;
+    padding-right: 38px;
+  }
+  .footer__button--icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 140px;
+  }

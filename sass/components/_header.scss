@@ -1,0 +1,14 @@
+
+@media screen and (min-width: 1200pz) {
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+    &__border {
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+}
